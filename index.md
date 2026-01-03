@@ -9,7 +9,7 @@ title: CamOnTime
 	</a>
 	<br>
 	<a href="https://github.com/In-spectrum/CamOnTime" target="_blank">
-		Personal media service
+		Personal streaming media service
 	</a>
 </h1>
 

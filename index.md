@@ -1,6 +1,5 @@
 ---
 layout: default
-title: CamOnTime
 ---
 
 <h1 align="center">

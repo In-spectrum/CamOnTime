@@ -22,11 +22,10 @@
 
 **Preview**
 <p align="center">
-  <a href="https://github.com/In-spectrum/CamOnTime/releases/download/v1.0.0/demo.mp4">
+  <a href="https://in-spectrum.github.io/CamOnTime/manual/videos/demo.mp4">
     <img src="manual/images/demo_preview.png" width="600">
   </a>
 </p>
-
 
 
 ## Table of contents

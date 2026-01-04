@@ -24,6 +24,14 @@ layout: default
 **Planned**
 * iOS, macOS;
 
+**Preview**
+<p align="center">
+  <a href="manual/videos/demo.mp4">
+    <img src="manual/images/demo_preview.png" width="600">
+  </a>
+</p>
+
+
 ## Table of contents
 
 * [**CamOnTime-server**](#CamOnTime-server)

@@ -62,11 +62,12 @@
 The administrator create users and has access to all cameras.
 
 ### Functions
-- adding/deleting RTSP streams of its cameras;
+- adding/deleting RTSP stream of camera;
 - simultaneous viewing of several video cameras;
 - setting the total time for recording files;
 - setting the status of the video camera as publicly available for all users on the server;
-- generating code for viewing the video camera by clients who are not connected to the server but have the application installed.
+- generating code for viewing the video camera by clients who are not connected to the server but have the application installed;
+- copy/delete files;
 
 ### Install
  - [GStreamer install](#installing-additional-software);

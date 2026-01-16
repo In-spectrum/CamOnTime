@@ -1,6 +1,6 @@
 <h1 align="center">
 	<a href="https://github.com/In-spectrum/CamOnTime" target="_blank">
-		<img src="manual/images/baner.png" width="750" height="250" alt='CamOnTime | Personal media service.' >
+    	<img src="manual/images/baner.png" width="750" style="height:auto;" alt="CamOnTime | Personal media service.">
 	</a>
 	<br>
 	<a href="https://github.com/In-spectrum/CamOnTime" target="_blank">

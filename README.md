@@ -80,7 +80,7 @@ The administrator create users and has access to all cameras.
 - run with administrator rights;
 - select **Custom** and **check all plugins**;
 - add __C:\gstreamer\1.0\mingw_x86_64\bin__ to **PATH** system;
-- if after run the application there is an error with **libgst3d11.dll** or **libgst3d12.dll**- delete them from __C:\gstreamer\1.0\mingw_x86_64\lib\gstreamer-1.0__
+- if after run the application there is an error with **libgst3d11.dll** or **libgst3d12.dll** - delete them from __C:\gstreamer\1.0\mingw_x86_64\lib\gstreamer-1.0__
 ### Ubuntu
 ```
 #sudo apt-get update && upgrade

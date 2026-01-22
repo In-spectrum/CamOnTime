@@ -50,7 +50,7 @@
 ### Properties
 **-pas** - set server password (default: 1111); _**CamOnTimeServer -pas 2227**_<br>
 **-p** - set listen port (default: 1255); _**CamOnTimeServer -p 1675**_<br>
-**-prtsp** - set rtsp-server port for viewing video files (default: 8554); _**CamOnTimeServer -prtsp 8654**_<br>
+**-prtsp** - set rtsp-server port for viewing video files (default: 8354); _**CamOnTimeServer -prtsp 8654**_<br>
 **-f** - set path to video files folder (default: home/user_name/Video); _**CamOnTimeServer -f D://VideoBox**_<br>
 
 ### Install

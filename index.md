@@ -80,7 +80,7 @@ The administrator create users and has access to all cameras.
    
 ## Installing additional software
 ### &emsp;**Windows:**
-- download installation files: <a href="https://gstreamer.freedesktop.org/data/pkg/windows/1.26.7/mingw/" target="_blank">gstreamer-1.0-mingw-x86_64-1.26.7.msi и gstreamer-1.0-devel-mingw-x86_64-1.26.7.msi</a>;
+- download installation files: <a href="https://gstreamer.freedesktop.org/data/pkg/windows/1.26.9/mingw/" target="_blank">gstreamer-1.0-mingw-x86_64-1.26.9.msi и gstreamer-1.0-devel-mingw-x86_64-1.26.9.msi</a>;
 - run with administrator rights;
 - select **Custom** and **check all plugins**;
 - add __C:\gstreamer\1.0\mingw_x86_64\bin__ to **PATH** system;

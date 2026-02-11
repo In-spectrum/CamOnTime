@@ -42,6 +42,7 @@ layout: default
   * [Functions](#functions-1)
   * [Install](#install-1)
 * [**Installing additional software**](#installing-additional-software)
+* [**Releases**](https://github.com/In-spectrum/CamOnTime/releases)
 * [**Contacts**](https://github.com/In-spectrum)
 * [**License**](#license)
 

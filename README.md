@@ -90,10 +90,6 @@ The administrator create users and has access to all cameras.
 ```
 #sudo apt-get install gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-rtsp libgstrtspserver-1.0-0 libgstrtspserver-1.0-dev -y
 ```
-- for show user interface and emulate keyboard signals:
-```
-#sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev -y
-```
 
 ## License
 All code in this repository is released under the <a href="https://github.com/In-spectrum/CamOnTime/blob/main/LICENSE">MIT license</a>. 

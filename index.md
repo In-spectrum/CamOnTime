@@ -79,21 +79,25 @@ The administrator create users and has access to all cameras.
  - start the CamOnTimeClient;
    
 ## Installing additional software
-### Windows
+### &emsp;**Windows:**
 - download installation files: <a href="https://gstreamer.freedesktop.org/data/pkg/windows/1.26.7/mingw/" target="_blank">gstreamer-1.0-mingw-x86_64-1.26.7.msi и gstreamer-1.0-devel-mingw-x86_64-1.26.7.msi</a>;
 - run with administrator rights;
 - select **Custom** and **check all plugins**;
 - add __C:\gstreamer\1.0\mingw_x86_64\bin__ to **PATH** system;
 - if after run the application there is an error with **libgst3d11.dll** or **libgst3d12.dll** - delete them from __C:\gstreamer\1.0\mingw_x86_64\lib\gstreamer-1.0__
-### Ubuntu
+
+### &emsp;**Ubuntu:**
 ```
 #sudo apt-get update && upgrade
 ```
-- for show user interface:
+- GStreamer plugins:
 ```
-#sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev -y
+#sudo apt-get install gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-rtsp libgstrtspserver-1.0-0 libgstrtspserver-1.0-dev -y
 ```
-- install the GStreamer plugins **version 1.26.7**: _gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-rtsp_.
+- for show user interface and emulate keyboard signals:
+```
+#sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev -y
+```
 
 ## License
 All code in this repository is released under the <a href="https://github.com/In-spectrum/CamOnTime/blob/main/LICENSE">MIT license</a>. 

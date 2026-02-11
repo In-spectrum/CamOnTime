@@ -76,7 +76,7 @@ The administrator create users and has access to all cameras.
 ### Install
  - [GStreamer install](#installing-additional-software);
  - download <a href="https://github.com/In-spectrum/CamOnTime/releases" target="_blank">application archive</a> and unzip;
- - start the CamOnTimeClient;
+ - start the CamOnTime;
    
 ## Installing additional software
 ### &emsp;**Windows:**

@@ -20,7 +20,7 @@
 **Planned**
 * iOS, macOS;
 
-**Preview**
+**Video preview**
 <p align="center">
   <a href="https://in-spectrum.github.io/CamOnTime/manual/videos/demo.mp4">
     <img src="manual/images/demo_preview.png" width="600">

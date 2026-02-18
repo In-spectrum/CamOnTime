@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <h1 align="center">
 	<a href="https://github.com/In-spectrum/CamOnTime" target="_blank">
     	<img src="manual/images/baner.png" width="750" style="height:auto;" alt="CamOnTime | Personal media service.">

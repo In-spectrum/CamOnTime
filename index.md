@@ -40,6 +40,7 @@ layout: default
 * [**CamOnTime-client**](#CamOnTime-client)
   * [Functions](#functions-1)
   * [Install](#install-1)
+  * [Stream test](#stream-test)
 * [**Installing additional software**](#installing-additional-software)
 * [**Application archive**](https://github.com/In-spectrum/CamOnTime/releases)
 * [**Contacts**](https://github.com/In-spectrum)
@@ -77,6 +78,13 @@ The administrator create users and has access to all cameras.
  - [GStreamer install](#installing-additional-software);
  - download <a href="https://github.com/In-spectrum/CamOnTime/releases" target="_blank">application archive</a> and unzip;
  - start the CamOnTime;
+
+### Stream test
+Copy the token and paste to menu: **'Stream add (token)'**  
+  
+**Сamera free tokens:**  
+_X8195pAzTl,migf#r+)@4fcmi1{9)!.mq00501512Q20500601q125_
+_A9AwpEHx19rny($uy)cjzgs.'&%7cktn500610510500511Q215005_
    
 ## Installing additional software
 ### &emsp;**Windows:**

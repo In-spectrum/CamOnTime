@@ -81,7 +81,7 @@ Copy the token and paste to menu: **'Stream add (token)'**
   
 **Сamera free tokens:**  
 _X8195pAzTl,migf#r+)@4fcmi1{9)!.mq00501512Q20500601q125_  
-_A9AwpEHx19rny($uy)cjzgs.'&%7cktn500610510500511Q215005_
+_29ajqvqALIcn<;%)%o!zkg6!(7.}!{en502Q11602500q11610q005_
    
 ## Installing additional software
 ### &emsp;**Windows:**

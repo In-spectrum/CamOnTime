@@ -80,8 +80,12 @@ The administrator create users and has access to all cameras.
 Copy the token and paste to menu: **'Stream add (token)'**  
   
 **Сamera free tokens:**  
-_X8195pAzTl,migf#r+)@4fcmi1{9)!.mq00501512Q20500601q125_  
-_A9AwpEHx19rny($uy)cjzgs.'&%7cktn500610510500511Q215005_
+```bash
+X8195pAzTl,migf#r+)@4fcmi1{9)!.mq00501512Q20500601q125
+```
+```bash
+A9AwpEHx19rny($uy)cjzgs.'&%7cktn500610510500511Q215005
+```
    
 ## Installing additional software
 ### &emsp;**Windows:**
@@ -92,11 +96,11 @@ _A9AwpEHx19rny($uy)cjzgs.'&%7cktn500610510500511Q215005_
 - if after run the application there is an error with **libgst3d11.dll** or **libgst3d12.dll** - delete them from __C:\gstreamer\1.0\mingw_x86_64\lib\gstreamer-1.0__
 
 ### &emsp;**Ubuntu:**
-```
+```bash
 #sudo apt-get update && upgrade
 ```
 - GStreamer plugins:
-```
+```bash
 #sudo apt-get install gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-rtsp libgstrtspserver-1.0-0 libgstrtspserver-1.0-dev -y
 ```
 

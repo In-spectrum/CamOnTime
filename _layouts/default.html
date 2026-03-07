@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.className = "copy-button";
 
     button.innerHTML = `
-      <svg viewBox="0 0 24 24" width="16" height="16">
+      <svg viewBox="0 0 24 24">
         <path fill="currentColor"
         d="M16 1H4c-1.1 0-2 .9-2 2v12h2V3h12V1zm3
         4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2
@@ -67,11 +67,16 @@ document.addEventListener("DOMContentLoaded", function () {
       </svg>
     `;
 
-    button.addEventListener("click", () => {
+    button.onclick = () => {
+
       navigator.clipboard.writeText(codeBlock.innerText);
-      button.classList.add("copied");
-      setTimeout(() => button.classList.remove("copied"), 1500);
-    });
+
+      button.classList.add("flash");
+
+      setTimeout(() => {
+        button.classList.remove("flash");
+      }, 400);
+    };
 
     wrapper.appendChild(button);
 

@@ -39,6 +39,38 @@
     <!-- end custom head snippets -->
 
   </head>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  document.querySelectorAll("pre > code").forEach(function(codeBlock) {
+
+    const button = document.createElement("button");
+    button.innerText = "Copy";
+
+    button.style.position = "absolute";
+    button.style.top = "6px";
+    button.style.right = "6px";
+    button.style.padding = "3px 8px";
+    button.style.fontSize = "12px";
+    button.style.cursor = "pointer";
+
+    const pre = codeBlock.parentNode;
+    pre.style.position = "relative";
+
+    button.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.innerText);
+      button.innerText = "Copied!";
+      setTimeout(() => button.innerText = "Copy", 1500);
+    });
+
+    pre.appendChild(button);
+
+  });
+
+});
+</script>
+  
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       {{ content }}      

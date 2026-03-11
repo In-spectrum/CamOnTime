@@ -40,34 +40,38 @@
 
   </head>
 
- <script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  document.querySelectorAll("pre > code").forEach(function(codeBlock) {
-
-    const pre = codeBlock.parentNode;
-
-    const wrapper = document.createElement("div");
-    wrapper.className = "code-wrapper";
-
-    pre.parentNode.insertBefore(wrapper, pre);
-    wrapper.appendChild(pre);
-
-    const button = document.createElement("button");
-    button.className = "copy-button";
-    button.innerText = "Copy";
-
-    button.addEventListener("click", () => {
-      navigator.clipboard.writeText(codeBlock.innerText);
-      button.innerText = "Copied!";
-      setTimeout(() => button.innerText = "Copy", 1500);
-    });
-
-    wrapper.appendChild(button);
-
-  });
-
-});
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+      
+        document.querySelectorAll("pre > code").forEach(function(codeBlock) {
+      
+          const pre = codeBlock.parentNode;
+      
+          const wrapper = document.createElement("div");
+          wrapper.className = "code-wrapper";
+      
+          pre.parentNode.insertBefore(wrapper, pre);
+          wrapper.appendChild(pre);
+      
+          const button = document.createElement("button");
+          button.className = "copy-button";
+          button.innerText = "Copy";
+      
+          button.addEventListener("click", () => {
+      
+            const text = codeBlock.textContent.trimEnd();
+            navigator.clipboard.writeText(text);
+      
+            button.innerText = "Copied!";
+            setTimeout(() => button.innerText = "Copy", 1500);
+      
+          });
+      
+          wrapper.appendChild(button);
+      
+        });
+      
+      });
 </script>
   
   <body>

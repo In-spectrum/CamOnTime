@@ -40,7 +40,7 @@
   * [Stream test](#stream-test)
 * [**Installing additional software**](#installing-additional-software)
 * [**Application archive**](https://github.com/In-spectrum/CamOnTime/releases)
-* [**Contacts**](https://github.com/In-spectrum/Porfolio/)
+* [**Contacts**](https://github.com/In-spectrum/Portfolio/)
 * [**License**](#license)
 
 ## **CamOnTime-server**

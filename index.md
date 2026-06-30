@@ -43,7 +43,7 @@ layout: default
   * [Stream test](#stream-test)
 * [**Installing additional software**](#installing-additional-software)
 * [**Application archive**](https://github.com/In-spectrum/CamOnTime/releases)
-* [**Contacts**](https://in-spectrum.github.io/Porfolio/)
+* [**Contacts**](https://in-spectrum.github.io/Portfolio/)
 * [**License**](#license)
 
 ## **CamOnTime-server**
